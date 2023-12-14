@@ -1,0 +1,56 @@
+
+body{
+    background-color: #777675;
+}
+.inbutt input{
+    width: 60px;
+    height: 60px;
+    font-size: large;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border-color:#e5e5e5;
+    border-style: none;
+    margin-bottom: 7px;
+   margin-left: 3px ;
+   font-size: 20px;
+
+   
+}
+#mycal{
+    width:  344px;
+    height: 40px;
+    padding-top:40px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border-color:  #e5e5e5;
+    border-style: none;
+    background: transparent;
+    text-align:right;
+    font-size:40px;
+    color: #ffffff;
+    
+    
+   
+}
+.cal{
+    width: 345px;
+    
+    margin:100px;
+    margin-left: 450px;
+    padding: 10px;
+    padding-right:  18px;
+    padding-left:  18px;
+    background-color:#353434;
+   border-radius: 20px;
+   
+    white-space:5px;
+   
+}
+.inbutt .op{
+   background:#db731e;
+}
+
+.inbutt .opo{
+    color:#db731e;
+ }
+ 

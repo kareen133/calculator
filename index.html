@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="cal.js"></script>
+    
+</head>
+<body>
+
+    <div class="cal">
+    <div class="display">
+        <input type="text" id="mycal" name="display">
+
+    </div>
+    <div class="inbutt">
+<div>
+    <input type="button" value="("  onClick="display('(')" >
+    <input type="button" value=")"   onClick="display(')')">
+    <input type="button" class="opo" value="x²" onClick="s()">
+    <input type="button" value="-" class="op" onClick="display('-')">
+    <input type="button" value="Del" class="opo"  onClick="del()" >
+</div>
+  <div >
+    <input type="button"  value="1" onClick="display('1')" >
+    <input type="button" value="2"  onClick="display('2')">
+    <input type="button" value="3"  onClick="display('3')">
+    <input type="button" value="÷" class="op"  onClick="display('/')">
+    <input type="button" value="Sin" class="opo"  onClick="si()">
+</div> 
+<div>
+    <input type="button" value="4"  onClick="display('4')">
+    <input type="button" value="5"  onClick="display('5')">
+    <input type="button" value="6"  onClick="display('6')">
+    <input type="button" value=" × " class="op"  onClick="display('*')">
+    <input type="button" value="Cos" class="opo"  onClick="co()">
+</div>
+<div>
+    <input type="button" value="7"  onClick="display('7')">
+    <input type="button" value="8"  onClick="display('8')">
+    <input type="button" value="9"  onClick="display('9')">
+    <input type="button" value="+" class="op"  onClick="display('+')" >
+    <input type="button" value="Tan" class="opo" onClick="t()">
+</div>
+<div>
+    <input type="button" value="0"  onClick="display('0')">
+    <input type="button" value="."  onClick="display('.')">
+    <input type="button" value="%" class="opo"  onClick="display('%')">
+    <input type="button" value="="   class="op" onClick="equal()" style="width: 125px;  height: 55px;">
+</div>  
+</div>
+</div>
+
+</body>
+</html>
